@@ -1,0 +1,59 @@
+--script kill
+local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
+
+local Window = Fluent:CreateWindow({
+    Title = "SP00K hub" .. Fluent.Version,
+    TabWidth = 160, Size = UDim2.fromOffset(580, 460), Theme = "Dark"
+})
+
+local Tabs = {
+    Main = Window:AddTab({ Title = "Scripts para brookhaven🤪" }),
+    Settings = Window:AddTab({ Title = "", Icon = "" })
+}
+-- Parágrafo
+Tabs.Main:AddParagraph({ Title = "SP00K", Content = "Scripts aqui!" })
+
+--botão 
+Tabs.Main:AddButton({ Title = "system brook😀", Callback = function() 
+local credits = "SystemBroken made by system_calix"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/H20CalibreYT/SystemBroken/main/script"))()
+end })
+
+Tabs.Main:AddButton({ Title = "Rael hub😃", Callback = function()
+loadstring(game:HttpGet"https://raw.githubusercontent.com/Laelmano24/Rael-Hub/main/main.txt")()
+end })
+
+Tabs.Main:AddButton({ Title = "Rochips🤑", Callback = function()
+if "Rochips Loader" then
+	local Rochips_panel,v,u,i=loadstring,"/snippets","gwwv","/raw/main.lua" ;
+	Rochips_panel(game:HttpGet("https://glot.io"..v.."/" ..u.."877ga3"..i))();
+	return "it will load in around 3 - 131 seconds"
+end
+end })
+
+Tabs.Main:AddButton({ Title = "RD4", Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/M1ZZ001/BrookhavenR4D/main/Brookhaven%20R4D%20Script'))()
+end })
+
+Tabs.Main:AddButton({ Title = "Joãozinho hub😁", Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Davizinhofprest/OaiaJaooBaodapega/refs/heads/main/6e8bf16e68877f75%20(1).txt"))()
+end })
+
+Tabs.Main:AddButton({ Title = "Astro🤯", Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/AstroXTeam/AstroXHubNeta/refs/heads/main/%D9%87%D9%84%D9%88.lua"))({ "https://t.me/+tuhsBmhYBT0wMzBi",true,"BY:nxDredd" })
+end })
+
+Tabs.Main:AddButton({ Title = "tiger x (usem o r6 dele para funcionar)", Callback = function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/balintTheDevX/Tiger-X-V3/main/Tiger%20X%20V3.5%20Fixed"))()
+end })
+
+local Tabs = {
+    Main = Window:AddTab({ Title = "Scripts para desastre natural🤪" }),
+    Settings = Window:AddTab({ Title = "", Icon = "" })
+}
+
+Tabs.Main:AddButton({ Title = "InfiniteYield🫠", Callback = function()
+loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+end })
+
+
